@@ -1,8 +1,8 @@
 # ReservationClient
 
-OpenReservation angular 客户端，使用 angular 12 + material 开发，支持部署到 docker 以及 k8s
+OpenReservation angular client, developed with angular 12 + material, supports deployment to docker and k8s
 
-[![Build status](https://weihanli.visualstudio.com/Pipelines/_apis/build/status/OpenReservation.AngularClient.CI)](https://weihanli.visualstudio.com/Pipelines/_build/latest?definitionId=21)
+[![Build status](https://weihanli.visualstudio.com/Pipelines/_apis/build/status/OpenReservation.AngularClient.CI)](https://weihanli.visualstudio.com/Pipelines/_build/latest?definitionId =21)
 
 ## Docker
 
@@ -10,12 +10,12 @@ OpenReservation angular 客户端，使用 angular 12 + material 开发，支持
 docker run -d -p 8081:80 openreservation/angular-client:latest
 ```
 
-## Kubernetes
+##Kubernetes
 
 ``` bash
 kubectl apply -f k8s-deploy.yaml
 ```
 
-## More
+##More
 
-预约服务器端：<https://github.com/OpenReservation/ReservationServer>
+Reservation server: <https://github.com/OpenReservation/ReservationServer>
